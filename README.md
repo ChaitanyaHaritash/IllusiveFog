@@ -1,9 +1,9 @@
 <div align="center">
   <a href="https://github.com/ChaitanyaHaritash/IllusiveFog/">
-    <img src="banner.png" height="150">
+    <img src="banner.png"  width="500" height="500">
   </a>
 
-  <h1>Socks5 Proxy Based Administrator Level C2. | Written in purely Python 2.7, C & C++.</h1>
+  <h2>Socks5 Proxy Based Administrator-Level ImplantKit for windows. | Written in purely Python 2.7, C & C++.</h2>
 </div>
 </center>
 <center>
@@ -15,22 +15,64 @@
     |___|____/____/____//____  >__| \_/  \___  >___  / \____/\___  / 
                             \/              \/    \/       /_____/        
 		
-        Socks5 Proxy Based Administrator Level C2.
 </center>
 
 # Information:
-IllusiveFog is an implant for Microsoft Windows based network for long term stealthy access and recon.
+IllusiveFog is an implantkit for Microsoft Windows based network for long term stealthy access and recon.
 
 # Documenation:
-Documenation will be uploaded soon.
+ * [Documentation - User-Docs.md](https://github.com/ChaitanyaHaritash/IllusiveFog/blob/main/docs/user-docs.md)
+ * [Changelog](https://github.com/ChaitanyaHaritash/IllusiveFog/blob/main/docs/change.log.md)
+
+# Features:
+ ### Help Menu:
+	Help Menu:
+ 	=========
+	resetdb 			- Reset/Empty DataBase to Fresh.
+	help 				- Help Menu.
+	listold 			- List about old victims.
+	interact 			- Interact with Victim.
+	exit 	 			- Exit.
+
+ ### Victim Interaction Capabilities:
+
+	Victim Interaction Capabilities:
+	===============================
+	
+	info  				- Information about victim.
+	list				- List all victims.
+	jobs				- List all active jobs.
+	jobdel				- Delete any active Job.
+	remove				- Remove Victim from database.
+	
+	shell 				- Command to be executed on Victim Machine's Shell.
+	persistence			- Install/Uninstall Persistence on Victim.
+	injShellcode			- Inject Shellcode on Victim Machine.
+	selfSocks5			- Turn Victim into a Socks5 Proxy itself.
+	VerboseRecon		        - Verbose Recon On infected victim.
+	VTLook				- Check if Binaries are submitted on Virustotal.
+	Load				- Load EXE/DLL on Infected Host.
+	ETW				- Perform operations on ETW.
+	EVTX			 	- Perform Operations on EVTX. 
+	UnldPlug			- Unload a plugin.
+	Keylogger			- Keylogger.
+	FetchFile			- Steal files from Victim.
+	ProcessCamouflage  		- Steal attributes of any target executable.  
+	Cleanup				- Close Connection with Victim. (Complete Removal)
+	
+	back  				- Back to the main Menu.
+
 
 # Consent: 
- **"The creators (@bofheaded & @veil_ivy) of the project (IllusiveFog) would not be responsible for any usecase of this project.
-User shall be responsible for usage of code."**
+ **"The creators (@bofheaded & @veil_ivy) of the project (IllusiveFog) will not be responsible for any usecase of this project by any user.
+User shall be responsible usage of the code."**
 
-This project was made with a mindset of hobbist to learn Windows internals and detection mechanisams having inspiration 
-from open-source and commercial projects with extensive understanding of offensive toolings to implement something homebrewed.
+This project was made with a mindset of hobbist back in 2019-2021 to learn more about Windows internals and detection mechanisams having inspiration 
+from open-source and commercially available C2/Implant frameworks with extensive understanding of offensive toolings to implement something homebrewed.
 
  * Kindly consider it for educational purposes
- * This project is no longer maintained.
+ * **This project is no longer maintained.**
  * There could be some parts of code routine which might require reverse-engineering and make them work (This is intentionally done).
+
+# LICENSE:
+[MIT-LICENSE](https://github.com/ChaitanyaHaritash/IllusiveFog/blob/main/LICENSE)
