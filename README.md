@@ -67,7 +67,7 @@ IllusiveFog is an implantkit for Microsoft Windows based network for long term s
  **"The creators (@bofheaded & @veil_ivy) of the project (IllusiveFog) will not be responsible for any usecase of this project by any user.
 User shall be responsible usage of the code."**
 
-This project was made with a mindset of hobbist back in 2019-2021 to learn more about Windows internals and detection mechanisams having inspiration 
+This project was made with a mindset of hobbyist back in 2019-2021 to learn more about Windows internals and detection mechanisams having inspiration 
 from open-source and commercially available C2/Implant frameworks with extensive understanding of offensive toolings to implement something homebrewed.
 
  * Kindly consider it for educational purposes
