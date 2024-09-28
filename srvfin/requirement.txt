@@ -1,0 +1,5 @@
+flask
+Flask-SQLAlchemy
+pycryptodome
+pkcs7
+requests

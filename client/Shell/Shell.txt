@@ -1,0 +1,18 @@
+ -Shell Plugin: simply executes shell commands that are received,suspecious APIs
+	such as WinExec/ShellExec are not used to maintain OpSec.you may use this to gain
+	telemetry on victim's Machine,but commands are limited to OpSec-safe.
+
+	OpSec Warning will be raised if any commands such as onliner for powershell or any lolbins.
+
+STATES:	WORKING:Y,NOT-WORKING:N,NOT AVAILABLE:N/A
+Compatability table:
+OS:			WINDOWS 7		WINDOWS SERVER 2008(DATA CENTRE)		WINDOWS SERVER 2012		WINDOWS SERVER 2016		WINDOWS SERVER 2019		WINDOWS 10
+STATE:			Y					Y										N/A						N/A						N/A					Y	
+
+
+PLUGIN-STATUS:
+LAUNCH IN PRODUCTION.
+TODO:
+	final code cleanup.
+	Raise OpSec warnings if command length is more than 20.
+

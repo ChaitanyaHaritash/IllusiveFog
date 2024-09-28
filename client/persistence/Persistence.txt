@@ -1,0 +1,26 @@
+Persistence Plugin :- Install/Uninstall Persistence on Victim:
+	
+	-Dll-Hijacking:abuses Loading of missing DLLs(Dynamically Loaded Library) by  	
+	Windows-Process,which results in Loading of an arbitrary DLL in that process. 
+	Loading missing DLLs is feature,for application-compatability reasons these
+	features are exploited for our use. 
+	 
+
+	 Install:Places DLL at the path of missing DLL.
+	 Uninstall:Deletes DLL where its placed for persistence.
+	
+
+STATES:	WORKING:Y,NOT-WORKING:N,NOT AVAILABLE:N/A
+Compatability table:
+OS:			WINDOWS 7		WINDOWS SERVER 2008(DATA CENTRE)		WINDOWS SERVER 2012		WINDOWS SERVER 2016		WINDOWS SERVER 2019		WINDOWS 10
+STATE:			Y					N										N						N						N						N
+
+
+PLUGIN-STATUS:
+TEST IN PRODUCTION.
+
+TODO:
+	FINAL CODE CLEANUP.
+	TEST UNINSTALL.
+	FINAL CHECKS.
+

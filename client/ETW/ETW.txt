@@ -1,0 +1,38 @@
+-ETW Plugin: Event Tracing for Windows is a feature that allows applications to
+	collect logs about processes such as allocation of VADs,heaps,image load,
+	network outgoing & incoming,disk,driver-load,process-creation,debug 
+	prints,registry access and many other useful details.
+	This feature is exploited to vital & rare intelligence about the 
+	target.
+	This feature not only allows one in a covert op to collect intelligence without
+	risk of losing opsec but also use windows features more covertly.
+	
+	ETW-Providers subscriptions that enable to collect logs are also used by sysmon
+	and windows defender (also known as ETW provider : Microsoft-Windows-Thread-
+	Intelligence),mainly subscription to these ETW-Providers enable them to 
+	collect logs about malicious activity,these ETW-Providers can be disabled so
+	that windows-defender or sysmon will not receive any events about the process.
+	Our research on usage and interaction between AV and ETW providers is in progress
+	in-order to subvert these features for our benefit.
+	Customer can expect updates on ETW plugin.
+
+
+ETW: Fetch-Clsid: retrives provider GUID to subscirbe to provider ETW.
+ETW: Subscribe: Subscribe to ETW based on provider GUID.
+
+
+STATES:	WORKING:Y,NOT-WORKING:N,NOT AVAILABLE:N/A
+Compatability table:
+OS:								WINDOWS 7		WINDOWS SERVER 2008(DATA CENTRE)		WINDOWS SERVER 2012		WINDOWS SERVER 2016		WINDOWS SERVER 2019		WINDOWS 10
+ETW(Fetch-Clsid/Subscribe)			Y/Y					Y/N										N/A						N/A						N/A					Y/Y	
+
+
+PLUGIN-STATUS:
+LAUNCH IN PRODUCTION.
+TODO:
+	final code cleanup.
+	final checks.
+	add check to block ETW-Subscibe on Server-2008
+
+
+

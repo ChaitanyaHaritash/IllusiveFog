@@ -1,0 +1,1 @@
+extern char* pellet_name = "sztex";

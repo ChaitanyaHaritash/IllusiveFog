@@ -1,0 +1,18 @@
+-VerboseRecon(SystemInfo,NetworkInfo) Plugin:
+	Verbose-Recon contains process of getting vital intelligence about 
+	Victim's Machine and connected devices in network.To achieve this it performs following operations:
+	NetworkInfo:-
+	1):ARP SCANNING(TO GAIN INTELLIGENCE ABOUT DEVICES IN NETWORK)
+	2):PORT SCANNING(TO GET INFORMATION ABOUT CURRENT OPEN PORTS ON VICTIM'S MACHINE)
+	SystemInfo:-
+	1):CURRENT INSTALLED SOFTWARE ON VICTIM'S MACHINE.
+	2):COMPUTER NAME & CURRENT TEMP,SYSTEM,WINDOWS DIRECTORY.
+
+STATES:	WORKING:Y,NOT-WORKING:N,NOT AVAILABLE:N/A
+Compatability table:
+OS:											WINDOWS 7		WINDOWS SERVER 2008(DATA CENTRE)		WINDOWS SERVER 2012		WINDOWS SERVER 2016		WINDOWS SERVER 2019		WINDOWS 10
+STATE(NetWork-Check/SystemInfo:):				Y/Y					N/Y										Y/Y						N/A						N/A					Y/Y
+																											
+PLUGIN-STATUS:
+ENHANCEMENT(IF THERE ARE NO INTERFACES ON WAN,USE LAN),FINAL CHECKS REMAINING
+ADD CHECK TO BLOCK NETWORK-CHECK ON SERVER 2008

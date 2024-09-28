@@ -1,0 +1,32 @@
+-VerboseRecon(MitigationsCheck,UpdateCheck):- contains process of getting vital intelligence about 
+	Victim's Machine In-Order to have better foot-hold over it such as telemetry
+	to use vulnerability to gain higher privileges.
+	It will collect data such as Mitigations that are enabled and updates currently installed on victim's machine.
+
+COLLECTS INFORMATION FOR FOLLOWING MITIGATIONS & POLICIES:
+1):DEP.
+2):ASLR.
+3):PROCESS DYNAMIC CODE POLICY.
+4):PROCESS HANDLE CHECK POLICY.
+5):PROCESS SYSCALL DISABLE POLICY.
+6):PROCESS EXTENSION POINT DISABLE POLICY.
+7):CFG POLICY.
+8):PROCESS SIGNATURE POLICY.
+9):PROCESS FONT POLICY.
+10):PROCESS IMAGE LOAD POLICY.
+
+STATES:	WORKING:Y,NOT-WORKING:N,NOT AVAILABLE:N/A
+Compatability table:
+OS:			WINDOWS 7		WINDOWS SERVER 2008(DATA CENTRE)		WINDOWS SERVER 2012		WINDOWS SERVER 2016		WINDOWS SERVER 2019		WINDOWS 10
+STATE:			N					N										N/A						N/A						N/A					Y	
+
+PLUGIN-STATUS:
+LAUNCH IN PRODUCTION.
+
+TODO:
+FIX BUG FOR UPDATE-CHECK PRIVILEGE.
+ENCHANCE CALLBACK MESSAGES.
+TEST UPDATE-CHECK.
+
+
+	

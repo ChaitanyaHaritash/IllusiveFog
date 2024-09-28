@@ -1,0 +1,41 @@
+# Auto detect text files and perform line-ending
+* text=auto
+
+#
+# The above will handle all files NOT found below
+#
+
+# Documents
+*.adoc text
+*.csv text
+*.doc	 diff=astextplain
+*.DOC	 diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.md text
+*.mustache text
+*.PDF	 diff=astextplain
+*.pdf  diff=astextplain
+*.rtf	 diff=astextplain
+*.RTF	 diff=astextplain
+*.sql text
+*.tab text
+*.textile text
+*.tsv text
+
+# Graphics
+*.gif binary
+*.ico binary
+*.jpeg binary
+*.jpg binary
+*.png binary
+*.svg text
+
+# Custom for Visual Studio
+*.csproj merge=union
+*.dbproj merge=union
+*.fsproj merge=union
+*.sln text eol=crlf merge=union 
+*.vbproj merge=union
